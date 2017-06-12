@@ -1,0 +1,62 @@
+.barre_verticale {
+   height: 164vh;
+   width: 30%;
+   border-right: 0.1em solid;
+   border-color: $third-color;
+  
+   
+
+ 
+   background: $primary-color;
+
+	h1{
+		text-align: center;
+		font-family: $first-write;
+	}
+
+	img{
+		width:50%;
+		margin-left: 25%;
+		border-radius: 50%;
+	   
+	}
+
+	hr{
+		background: $third-color;
+		width : 50%;
+		height: 0.1em;
+		
+	}
+
+	h2{
+		text-align: center;
+		font-family: $first-write;
+	}
+
+	p{
+		text-align: center;
+		font-family: $second-write;
+	}
+
+	
+
+	.réseaux{
+		li{
+			width: 30%;
+			display: inline-flex;
+			list-style-type: none; 
+		}
+
+		
+	}
+
+	.language{
+		li{
+			width: 30%;
+			display: inline-flex;		
+			list-style-type: none; 
+		}
+	}
+}
+
+
