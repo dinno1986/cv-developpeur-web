@@ -1,9 +1,9 @@
 @charset "UTF-8";
 .barre_verticale {
-  height: 175vh;
+  height: 275vh;
   width: 30%;
   border-right: 0.1em solid;
-  border-color: #FB1;
+  border-color: #1D1075;
   background: #FB1; }
   .barre_verticale h1 {
     text-align: center;
@@ -16,9 +16,6 @@
     width: 50%;
     height: 0.1em; }
   .barre_verticale h2 {
-    text-align: center;
-    font-family: Shadows Into Light; }
-  .barre_verticale h3 {
     text-align: center;
     font-family: Shadows Into Light; }
   .barre_verticale p {
@@ -39,8 +36,8 @@
     display: inline-flex;
     list-style-type: none; }
   .barre_verticale .language3 li {
-    width: 6em;
-    height: 3em;
+    width: 1em;
+    height: 1em;
     display: inline-flex;
     list-style-type: none; }
 
@@ -100,4 +97,4 @@ body {
   width: 100%;
   font-size: 18px; }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.CSS.map */
