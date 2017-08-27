@@ -7,6 +7,8 @@
 .cv{
 
 	width: 70%;
+
+
 	h1{
 		text-align: center;
 		color: $primary-color;
@@ -15,6 +17,27 @@
 
 	li{
 		font-family: $second-write;
+	}
+
+	.projet{
+		
+
+		h1{
+				color : $third-color;
+		}
+
+		ul{
+
+				border:dotted;
+				padding:0.5em;
+				border-color: $third-color;
+				border-width :0.1em;
+		}
+
+		li{
+				margin-left: 1em;
+
+			}
 	}
 
 	.savoir{
@@ -97,6 +120,7 @@
 
 			}
 	}
+
 	
 }
 

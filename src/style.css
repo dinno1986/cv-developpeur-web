@@ -1,6 +1,6 @@
 @charset "UTF-8";
 .barre_verticale {
-  height: 175vh;
+  height: 192vh;
   width: 30%;
   border-right: 0.1em solid;
   border-color: #FB1;
@@ -56,6 +56,15 @@
     font-family: Shadows Into Light; }
   .cv li {
     font-family: Exo; }
+  .cv .projet h1 {
+    color: #1D1075; }
+  .cv .projet ul {
+    border: dotted;
+    padding: 0.5em;
+    border-color: #1D1075;
+    border-width: 0.1em; }
+  .cv .projet li {
+    margin-left: 1em; }
   .cv .savoir {
     margin-top: 4em; }
     .cv .savoir h1 {
