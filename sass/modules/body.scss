@@ -12,7 +12,8 @@
 	h1{
 		text-align: center;
 		color: $primary-color;
-		font-family: $first-write; 	
+		font-family: $first-write;
+
 	}
 
 	li{
@@ -20,19 +21,12 @@
 	}
 
 	.projet{
-		
+		margin-top: 4em;
 
 		h1{
-				color : $third-color;
+				color : $primary-color;
 		}
 
-		ul{
-
-				border:dotted;
-				padding:0.5em;
-				border-color: $third-color;
-				border-width :0.1em;
-		}
 
 		li{
 				margin-left: 1em;
@@ -44,17 +38,12 @@
 		margin-top: 4em;
 
 			h1{
-				color: $third-color;
-				
+				color: $primary-color;
 			}
 
 			ul{
-				border:dotted;
-				padding:0.5em;
-				border-color: $third-color;
-				border-width :0.1em;
+				;
 				columns: 2 ;
-
 			}
 
 			li{
@@ -63,62 +52,43 @@
 	}
 
 	.formation{
-		h1{
-				color: $third-color;
-				
-		}
-
-		ul{
-		
-				border:dotted;
-				padding:0.5em;
-				border-width :0.1em;
-				border-color: $third-color;	
-		}
-
-		li{
-				margin-left: 1em;
-
+		margin-top: 4em;
+			h1{
+					color: $primary-color;
+					
 			}
+
+
+			li{
+					margin-left: 1em;
+
+				}
 
 	}
 
 	.experiences{
-		h1{
-				color: $third-color;
-		}
-
-		ul{
-	
-				border:dotted;
-				padding:0.5em;
-				border-color: $third-color;
-				border-width :0.1em;
-
-		}
-		li{
-				margin-left: 1em;
-
+		margin-top: 4em;
+			h1{
+					color: $primary-color;
 			}
+
+			
+			li{
+					margin-left: 1em;
+
+				}
 	}
 
 	.loisirs{
-		h1{
-				color : $third-color;
-		}
-
-		ul{
-
-				border:dotted;
-				padding:0.5em;
-				border-color: $third-color;
-				border-width :0.1em;
-		}
-
-		li{
-				margin-left: 1em;
-
+		margin-top: 4em;
+			h1{
+					color : $primary-color;
 			}
+
+			li{
+					margin-left: 1em;
+
+				}
 	}
 
 	

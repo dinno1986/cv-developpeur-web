@@ -1,17 +1,18 @@
 .barre_verticale {
-   height: 192vh;
+   
    width: 30%;
    border-right: 0.1em solid;
-   border-color: $primary-color;
+   border-color: $secondary-color;
   
    
 
  
-   background: $primary-color;
+   background: $secondary-color;
 
 	h1{
 		text-align: center;
 		font-family: $first-write;
+
 	}
 
 	img{
@@ -29,16 +30,21 @@
 	}
 
 	h2{
+		margin-top: 2em;
 		text-align: center;
 		font-family: $first-write;
+		color: $primary-color;
 	}
 
 	h3{
+
 		text-align: center;
 		font-family: $first-write;
+		color: $primary-color;
 	}
 
 	p{
+		margin-top: 1em;
 		text-align: center;
 		font-family: $second-write;
 	}
@@ -47,6 +53,8 @@
 
 	.réseaux{
 		li{
+			text-align: center;
+			margin-top: 1em;
 			width: 6em;
 			height: 3em;
 			display: inline-flex;		
@@ -58,7 +66,8 @@
 
 	.language{
 		li{
-			
+			text-align:center;
+			margin-top:1em;
 			width: 6em;
 			height: 3em;
 			display: inline-flex;		
@@ -68,7 +77,8 @@
 
 	.language2{
 		li{
-			
+			text-align:center;
+			margin-top:1em;
 			width: 6em;
 			height: 3em;
 			display: inline-flex;		
@@ -78,7 +88,8 @@
 
 	.language3{
 		li{
-			
+			text-align:center;
+			margin-top:1em;
 			width: 6em;
 			height: 3em;
 			display: inline-flex;		
