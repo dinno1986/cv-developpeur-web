@@ -8,8 +8,8 @@
     text-align: center;
     font-family: Shadows Into Light; }
   .barre_verticale img {
-    width: 50%;
-    margin-left: 25%; }
+    width: 40%;
+    margin-left: 30%; }
   .barre_verticale hr {
     background: black;
     width: 50%;
@@ -42,14 +42,12 @@
     display: inline-flex;
     list-style-type: none; }
   .barre_verticale .language2 li {
-    text-align: center;
     margin-top: 1em;
     width: 6em;
     height: 3em;
     display: inline-flex;
     list-style-type: none; }
   .barre_verticale .language3 li {
-    text-align: center;
     margin-top: 1em;
     width: 6em;
     height: 3em;

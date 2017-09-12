@@ -49,6 +49,7 @@
 			li{
 				margin-left: 1em;
 			}
+			
 	}
 
 	.formation{
@@ -80,15 +81,17 @@
 	}
 
 	.loisirs{
-		margin-top: 4em;
-			h1{
-					color : $primary-color;
+	margin-top: 4em;
+		h1{
+				color : $primary-color;
+		}
+
+
+
+		li{
+				margin-left: 1em;
+
 			}
-
-			li{
-					margin-left: 1em;
-
-				}
 	}
 
 	
