@@ -1,106 +1,134 @@
 .barre_verticale {
-   
-   width: 30%;
-   border-right: 0.1em solid;
-   border-color: $secondary-color;
-  
-   
 
- 
-   background: $secondary-color;
 
-	h1{
+	width: 30%;
+	border-right: 0.1em solid;
+	border-color: $secondary-color;
+	background: $secondary-color;
+
+		h1{
 		text-align: center;
 		font-family: $first-write;
 
-	}
+		}
 
-	img{
+		img{
 		width:40%;
 		margin-left: 30%;
-		
-	   
-	}
+		}
 
-	hr{
+		hr{
 		background: $third-color;
 		width : 50%;
 		height: 0.1em;
-		
-	}
+		}
 
-	h2{
+		h2{
 		margin-top: 2em;
 		text-align: center;
 		font-family: $first-write;
 		color: $primary-color;
-	}
+		}
 
-	h3{
-
+		h3{
 		text-align: center;
 		font-family: $first-write;
 		color: $primary-color;
-	}
+		}
 
-	p{
-		margin-top: 1em;
+		p{
+		margin-top: 0.5em;
 		text-align: center;
 		font-family: $second-write;
-	}
-
-	
-
-	.réseaux{
-		li{
-			text-align: center;
-			margin-top: 1em;
-			width: 6em;
-			height: 3em;
-			display: inline-flex;		
-			list-style-type: none;
 		}
 
-		
-	}
+		.logo {
+		display: block;
+		margin: 0 auto;
+		width: 86%;
+		}	
 
-	.language{
-		li{
-		
-			text-align:center;
-			margin-top:1em;
-			width: 6em;
-			height: 3em;
-			display: inline-flex;		
-			list-style-type: none; 
+		.linkedin {
+		width: 150%;
+		height: 40px;
+		margin-right: 2px;
 		}
-	}
 
-	.language2{
-		li{
-			margin-top:1em;
-			width: 6em;
-			height: 3em;
-			display: inline-flex;		
-			list-style-type: none; 
+		.github {
+		width: 70%;
+		height: 40px;
+		margin-left: 1px;
 		}
-	}
 
-	.language3{
-		li{
-			margin-top:1em;
-			width: 6em;
-			height: 3em;
-			display: inline-flex;		
-			list-style-type: none; 
+		.display {
+		width: 30%;
+		display: inline-flex;
+		margin-left: 31%;
 		}
-	}
 
-	
+		.language{
+		text-align:center;
+		width: 7em;
+		height: 3em;
+		display: inline-flex;		
+		list-style-type: none; 
+		margin-top: 2em;
+		margin-bottom: 2em;
+		}
 
+		.language2{
+		margin-top:0.5em;
+		width: 7em;
+		height: 3em;
+		display: flex;		
+		list-style-type: none; 
+		}
 
+		.language3{
+		margin-top:0.5em;
+		width: 7em;
+		height: 3em;
+		display: flex;		
+		list-style-type: none; 
+		margin-top: 2em;
+		margin-bottom: 2em;
+		}
 
-	
+		.language4{
+		margin-top:0.5em;
+		width:7em;
+		height: 3em;
+		display: inline-flex;		
+		list-style-type: none; 
+		}
+
+		@media (max-width: 1000px) {
+			.logo {
+			display: block;
+			margin: 0 auto;
+			width: 100%;
+
+			}
+			.linkedin {
+			width: 150%;
+			height: 40px;
+			margin-right: 2px;
+			}
+
+			.github {
+			width: 70%;
+			height: 40px;
+			margin-left: 1px;
+			}
+
+			.display {
+			width: 30%;
+			display: inline-flex;
+			margin-left: 31%;
+			}	
+
+		} 
+
 }
 
 
