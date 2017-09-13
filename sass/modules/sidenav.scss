@@ -6,10 +6,10 @@
 	border-color: $secondary-color;
 	background: $secondary-color;
 
-		h1{
+		.name{
 		text-align: center;
 		font-family: $first-write;
-
+		color: $primary-color;
 		}
 
 		img{
@@ -17,29 +17,67 @@
 		margin-left: 30%;
 		}
 
+
+		.profil{
+			p{
+				margin-top: 0.5em;
+				text-align: center;
+				font-family: $second-write;
+			}
+			h2{
+				margin-top: 1em;
+				text-align: center;
+				font-family: $first-write;
+				color: $primary-color;
+			}
+		}
+
+
 		hr{
-		background: $third-color;
-		width : 50%;
+		background: $primary-color;
+		width : 70%;
 		height: 0.1em;
+		margin-top: 1.5em;
 		}
 
-		h2{
-		margin-top: 2em;
-		text-align: center;
-		font-family: $first-write;
-		color: $primary-color;
+		.contact{
+			h2{
+				margin-top: 2em;
+				text-align: center;
+				font-family: $first-write;
+				color: $primary-color;
+			}
+			p{
+				margin-top: 0.5em;
+				text-align: center;
+				font-family: $second-write;
+
+			}
 		}
 
-		h3{
-		text-align: center;
-		font-family: $first-write;
-		color: $primary-color;
+		.competence{
+			h2{
+				margin-top: 2em;
+				text-align: center;
+				font-family: $first-write;
+				color: $primary-color;
+			}
+			h3{
+				text-align: center;
+				font-family: $first-write;
+				color: $primary-color;
+			}
+
+			
 		}
 
-		p{
-		margin-top: 0.5em;
-		text-align: center;
-		font-family: $second-write;
+		.reseaux{
+				margin-top: 2em;
+				margin-bottom:2em;
+				text-align: center;
+				font-family: $first-write;
+				color: $primary-color;
+
 		}
 
 		.logo {
@@ -60,7 +98,7 @@
 		margin-left: 1px;
 		}
 
-		.display {
+		.rs {
 		width: 30%;
 		display: inline-flex;
 		margin-left: 31%;

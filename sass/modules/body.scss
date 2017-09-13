@@ -1,44 +1,39 @@
 
-
 .contenu	{
 	display: flex;
 }
 
 .cv{
-
 	width: 70%;
 
-
-	h1{
+	.titre{
 		text-align: center;
 		color: $primary-color;
 		font-family: $first-write;
-
-	}
-
-	li{
-		font-family: $second-write;
 	}
 
 	.projet{
-		margin-top: 4em;
-
+		
 		h1{
-				color : $primary-color;
+				text-align: center;
+				color: $primary-color;
+				font-family: $first-write;
+				margin-top: 2em;
+				margin-bottom: 1em;		
 		}
-
-
 		li{
 				margin-left: 1em;
-
+				font-family: $second-write;
 			}
 	}
 
 	.savoir{
-		margin-top: 4em;
-
 			h1{
+				text-align: center;
 				color: $primary-color;
+				font-family: $first-write;
+				margin-top: 3em;
+				margin-bottom: 1em;
 			}
 
 			ul{
@@ -48,50 +43,53 @@
 
 			li{
 				margin-left: 1em;
-			}
-			
+				font-family: $second-write;
+			}		
 	}
 
 	.formation{
-		margin-top: 4em;
 			h1{
-					color: $primary-color;
-					
+				text-align: center;
+				color: $primary-color;
+				font-family: $first-write;
+				margin-top: 2em;
+				margin-bottom: 1em;	
 			}
 
-
 			li{
-					margin-left: 1em;
-
-				}
-
+				margin-left: 1em;
+				font-family: $second-write;
+			}
 	}
 
 	.experiences{
-		margin-top: 4em;
 			h1{
-					color: $primary-color;
+				text-align: center;
+				color: $primary-color;
+				font-family: $first-write;
+				margin-top: 2em;
+				margin-bottom: 1em;	
 			}
 
-			
 			li{
 					margin-left: 1em;
-
-				}
+					font-family: $second-write;
+			}
 	}
 
 	.loisirs{
-	margin-top: 4em;
 		h1{
-				color : $primary-color;
+				text-align: center;
+				color: $primary-color;
+				font-family: $first-write;
+				margin-top: 2em;
+				margin-bottom: 1em;	
+				
 		}
-
-
-
 		li{
 				margin-left: 1em;
-
-			}
+				font-family: $second-write;
+		}
 	}
 
 	
