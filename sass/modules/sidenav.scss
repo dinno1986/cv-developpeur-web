@@ -1,7 +1,7 @@
 .barre_verticale {
 
 
-	width: 35%;
+	width: 30%;
 	border-right: 0.1em solid;
 	border-color: $secondary-color;
 	background: $secondary-color;
@@ -90,8 +90,8 @@
 		width: 86%;
 			img{
 				width:40%;
-				margin-left: 35%;
-				
+				margin-left: 30%;
+			
 			}
 		}	
 
@@ -114,13 +114,12 @@
 		}
 
 		.language{
-		text-align:center;
 		width: 7em;
 		height: 3em;
-		display: inline-flex;		
-		list-style-type: none; 
+		display: inline-flex;		 
 		margin-top: 2em;
 		margin-bottom: 2em;
+		
 		}
 
 		.language2{
@@ -129,7 +128,6 @@
 			width: 7em;
 			height: 3em;
 			display: flex;		
-			list-style-type: none; 
 		}
 			.b {
 				height: 65px;
@@ -141,7 +139,6 @@
 		width: 7em;
 		height: 3em;
 		display: flex;		
-		list-style-type: none; 
 		margin-bottom: 2em;
 		}
 
@@ -150,7 +147,7 @@
 		width:7em;
 		height: 3em;
 		display: inline-flex;		
-		list-style-type: none; 
+		
 		}
 
 		@media (max-width: 1000px) {
