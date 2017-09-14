@@ -76,17 +76,19 @@
     margin-bottom: 2em; }
   .barre_verticale .language2 {
     margin-top: 0.5em;
+    margin-bottom: 2em;
     width: 7em;
     height: 3em;
     display: flex;
     list-style-type: none; }
+  .barre_verticale .b {
+    height: 65px; }
   .barre_verticale .language3 {
     margin-top: 0.5em;
     width: 7em;
     height: 3em;
     display: flex;
     list-style-type: none;
-    margin-top: 2em;
     margin-bottom: 2em; }
   .barre_verticale .language4 {
     margin-top: 0.5em;
