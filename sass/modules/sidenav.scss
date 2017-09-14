@@ -1,21 +1,25 @@
 .barre_verticale {
 
 
-	width: 30%;
+	width: 35%;
 	border-right: 0.1em solid;
 	border-color: $secondary-color;
 	background: $secondary-color;
 
 		.name{
-		text-align: center;
-		font-family: $first-write;
-		color: $primary-color;
+			text-align: center;
+			font-family: $first-write;
+			color: $primary-color;
 		}
 
-		img{
-		width:40%;
-		margin-left: 30%;
+		.photo{
+			img{
+				width:40%;
+				margin-left: 30%;
+			}
+			
 		}
+
 
 
 		.profil{
@@ -84,24 +88,29 @@
 		display: block;
 		margin: 0 auto;
 		width: 86%;
+			img{
+				width:40%;
+				margin-left: 35%;
+				
+			}
 		}	
 
 		.linkedin {
-		width: 150%;
-		height: 40px;
-		margin-right: 2px;
+		width: 120%;
+		height: 3em;
+		margin-left: 1em;
 		}
 
 		.github {
 		width: 70%;
-		height: 40px;
-		margin-left: 1px;
+		height: 3em;
+		
 		}
 
 		.rs {
-		width: 30%;
+		width: 35%;
 		display: inline-flex;
-		margin-left: 31%;
+		margin-left: 26%;
 		}
 
 		.language{
@@ -159,7 +168,7 @@
 			margin-left: 1px;
 			}
 
-			.display {
+			.rs {
 			width: 30%;
 			display: inline-flex;
 			margin-left: 31%;
