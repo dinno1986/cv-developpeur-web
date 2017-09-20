@@ -147,6 +147,9 @@
   .cv .formation li {
     margin-left: 1em;
     font-family: Exo; }
+  .cv .formation em {
+    font-weight: bold;
+    margin-right: 1em; }
   .cv .experiences h1 {
     text-align: center;
     color: #CE253B;
