@@ -133,11 +133,20 @@
     font-family: Shadows Into Light;
     margin-top: 3em;
     margin-bottom: 1em; }
-  .cv .savoir ul {
+  .cv .savoir .colonne {
+    display: inline-flex;
     columns: 2; }
+  .cv .savoir .method {
+    color: #708BD6;
+    font-family: Exo;
+    text-align: center; }
+  .cv .savoir .technique2 {
+    color: #708BD6;
+    font-family: Exo;
+    text-align: center; }
   .cv .savoir li {
-    margin-left: 1em;
-    font-family: Exo; }
+    font-family: Exo;
+    column-width: 24em; }
   .cv .formation h1 {
     text-align: center;
     color: #CE253B;

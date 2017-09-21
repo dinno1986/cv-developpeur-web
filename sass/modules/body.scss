@@ -3,6 +3,8 @@
 	display: flex;
 }
 
+
+
 .cv{
 	width: 70%;
 
@@ -36,15 +38,39 @@
 				margin-bottom: 1em;
 			}
 
-			ul{
-				;
-				columns: 2 ;
+			.colonne{
+						display:inline-flex;
+						columns:2;
+			}
+
+			.methode{
+						
+			}
+			.method{
+				
+					color: $third-color;
+					font-family: $second-write;
+					text-align: center;
+					}
+
+			.technique{	
+
+						
+			}
+
+			.technique2{
+						color: $third-color;
+						font-family: $second-write;
+						text-align: center;
+
 			}
 
 			li{
-				margin-left: 1em;
+				
 				font-family: $second-write;
-			}		
+						 column-width: 24em;
+			}
+					
 	}
 
 	.formation{
