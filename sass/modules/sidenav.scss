@@ -25,12 +25,12 @@
 
 		.profil{
 			p{
-				margin-top: 0.5em;
+				margin-top: 1em;
 				text-align: center;
 				font-family: $second-write;
 			}
 			h2{
-				margin-top: 1em;
+				margin-top: 2em;
 				text-align: center;
 				font-family: $first-write;
 				color: $primary-color;
@@ -42,7 +42,7 @@
 		background: $primary-color;
 		width : 70%;
 		height: 0.1em;
-		margin-top: 1.5em;
+		margin-top: 2em;
 		}
 
 		.contact{
@@ -53,7 +53,7 @@
 				color: $primary-color;
 			}
 			p{
-				margin-top: 0.5em;
+				margin-top: 1em;
 				text-align: center;
 				font-family: $second-write;
 
@@ -76,22 +76,16 @@
 			
 		}
 		
-		.reseaux{
-				margin-top: 2em;
-				margin-bottom:2em;
-				text-align: center;
-				font-family: $first-write;
-				color: $primary-color;
-
-		}
+	
 
 		.logo {
 		display: block;
 		margin: 0 auto;
 		width: 86%;
+		margin-top: 2em;
 			img{
 				width:40%;
-				margin-left: 30%;
+				margin-left: 28%;
 			
 			}
 		}	
@@ -112,6 +106,7 @@
 		width: 35%;
 		display: inline-flex;
 		margin-left: 26%;
+		margin-top: 1em;
 		}
 
 		.language{
@@ -119,16 +114,17 @@
 		height: 3em;
 		display: inline-flex;		 
 		margin-top: 2em;
-		margin-bottom: 2em;
+		margin-bottom: 3em;
 		
 		}
 
 		.language2{
-			margin-top:0.5em;
-			margin-bottom:2em;
+			
 			width: 7em;
 			height: 3em;
-			display: flex;		
+			display: flex;
+			margin-bottom: 3em;
+				
 		}
 			.b {
 				height: 65px;
@@ -136,15 +132,16 @@
 
 
 		.language3{
-		margin-top:0.5em;
+		;
 		width: 7em;
 		height: 3em;
-		display: flex;		
-		margin-bottom: 2em;
+		display: flex;	
+		margin-bottom: 3em;	
+		
 		}
 
 		.language4{
-		margin-top:0.5em;
+		
 		width:7em;
 		height: 3em;
 		display: inline-flex;		

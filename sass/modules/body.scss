@@ -23,13 +23,25 @@
 				margin-top: 2em;
 				margin-bottom: 1em;		
 		}
-		li{
+		p{
 				font-family: $second-write;
+				margin-left:1em;
+
 			}
 
-		h2{
+		h4{
 			color: $third-color;
 			font-family: $second-write;
+			margin-left: 3em;
+
+		}
+
+		a{
+			color:$third-color;
+			display:block;
+			text-align:center;
+			font-family: $first-write;
+			
 		}
 	}
 
@@ -38,8 +50,8 @@
 				text-align: center;
 				color: $primary-color;
 				font-family: $first-write;
-				margin-top: 3em;
-				margin-bottom: 1em;
+				margin-top: 2em;
+				margin-bottom: 0.5em;
 			}
 
 			.colonne{
@@ -47,9 +59,7 @@
 						columns:2;
 			}
 
-			.methode{
-						
-			}
+			
 			.method{
 				
 					color: $third-color;
@@ -72,8 +82,8 @@
 
 			li{
 				
-				font-family: $second-write;
-						 column-width: 24em;
+						font-family: $second-write;
+						column-width: 24em;
 			}
 					
 	}
@@ -84,17 +94,46 @@
 				color: $primary-color;
 				font-family: $first-write;
 				margin-top: 2em;
-				margin-bottom: 1em;	
+				margin-bottom: 1em;
+					
 			}
 
 			li{
 				font-family: $second-write;
+				column-width: 24em;
+				 
 			}
 
-			em{
-				font-weight: bold;
-				margin-right: 1em;
+			strong{
+			color: $third-color;
+
 			}
+
+
+			h3{
+			text-align:center;
+			}
+
+			.colonne1{
+						display:inline-flex;
+						columns:2;
+			}
+
+			.colonne2{
+						display:inline-flex;
+						columns:2;
+					.dut2{
+					margin-right:3em;
+					}	
+			}
+
+			.colonne3{
+						display:inline-flex;
+						columns:2;
+				}
+
+
+
 	}
 
 	.experiences{
@@ -109,6 +148,60 @@
 			li{
 					font-family: $second-write;
 			}
+
+			strong{
+			color: $third-color;
+
+			}
+
+			.hastag{
+			color: $primary-color;
+			text-align: center;
+			font-family: $second-write;
+			margin-bottom: 0.5em;
+			margin-top: 0.5em;
+			}
+
+			.hastag1{
+			color: $third-color;
+			text-align: center;
+			font-family: $second-write;
+			margin-bottom: 0.5em;
+			margin-top: 0.5em;
+			}
+
+			.hastag2{
+			color: $primary-color;
+			text-align: center;
+			font-family: $second-write;
+			margin-bottom: 0.5em;
+			margin-top: 0.5em;
+			}
+
+			.hastag3{
+			color: $third-color;
+			text-align: center;
+			font-family: $second-write;
+			margin-bottom: 0.5em;
+			margin-top: 0.5em;
+			}
+
+			.hastag4{
+			color: $primary-color;
+			text-align: center;
+			font-family: $second-write;
+			margin-bottom: 0.5em;
+			margin-top: 0.5em;
+			}
+
+			.hastag5{
+			color: $third-color;
+			text-align: center;
+			font-family: $second-write;
+			margin-top: 0.5em;
+			}
+
+
 	}
 
 	.loisirs{
@@ -120,9 +213,17 @@
 				margin-bottom: 1em;	
 				
 		}
+
 		li{
-				font-family: $second-write;
+						font-family: $second-write;
+						column-width: 24em;
+			}
+
+		.loisirs1{
+					display:inline-flex;
+					columns:3;
 		}
+		
 	}
 
 	
