@@ -9,7 +9,7 @@
     color: #CE253B; }
   .barre_verticale .photo img {
     width: 40%;
-    margin-left: 30%; }
+    margin-left: 29%; }
   .barre_verticale .profil p {
     margin-top: 1em;
     text-align: center;
@@ -228,10 +228,12 @@
     margin-bottom: 1em; }
   .cv .loisirs li {
     font-family: Exo;
-    column-width: 24em; }
+    column-width: 23em; }
   .cv .loisirs .loisirs1 {
     display: inline-flex;
     columns: 3; }
+  .cv .loisirs .fa {
+    margin-right: 2em; }
 
 body {
   margin: 0;
