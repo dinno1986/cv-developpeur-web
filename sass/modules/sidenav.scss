@@ -1,3 +1,6 @@
+
+
+
 .barre_verticale {
 
 
@@ -148,6 +151,11 @@
 		
 		}
 
+		.imprimer{
+			margin-left: 6.5em;
+			margin-top: 43em;
+		}
+
 		@media (max-width: 1000px) {
 			.logo {
 			display: block;
@@ -172,6 +180,11 @@
 			display: inline-flex;
 			margin-left: 31%;
 			}	
+
+			.imprimer{
+			margin-left: 5em;
+			margin-top: 53em;
+		}
 
 		} 
 

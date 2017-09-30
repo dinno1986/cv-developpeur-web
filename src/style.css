@@ -84,6 +84,9 @@
     width: 7em;
     height: 3em;
     display: inline-flex; }
+  .barre_verticale .imprimer {
+    margin-left: 6.5em;
+    margin-top: 43em; }
   @media (max-width: 1000px) {
     .barre_verticale .logo {
       display: block;
@@ -100,7 +103,10 @@
     .barre_verticale .rs {
       width: 30%;
       display: inline-flex;
-      margin-left: 31%; } }
+      margin-left: 31%; }
+    .barre_verticale .imprimer {
+      margin-left: 5em;
+      margin-top: 53em; } }
 
 .contenu {
   display: flex; }
@@ -209,14 +215,8 @@
     font-family: Exo;
     margin-bottom: 0.5em;
     margin-top: 0.5em; }
-  .cv .experiences .hastag4 {
-    color: #CE253B;
-    text-align: center;
-    font-family: Exo;
-    margin-bottom: 0.5em;
-    margin-top: 0.5em; }
   .cv .experiences .hastag5 {
-    color: #708BD6;
+    color: #CE253B;
     text-align: center;
     font-family: Exo;
     margin-top: 0.5em; }
