@@ -84,9 +84,9 @@
     width: 7em;
     height: 3em;
     display: inline-flex; }
-  .barre_verticale .imprimer {
+  .barre_verticale .print {
     margin-left: 6.5em;
-    margin-top: 43em; }
+    width: 15%; }
   @media (max-width: 1000px) {
     .barre_verticale .logo {
       display: block;
@@ -105,8 +105,7 @@
       display: inline-flex;
       margin-left: 31%; }
     .barre_verticale .imprimer {
-      margin-left: 5em;
-      margin-top: 53em; } }
+      margin-left: 5em; } }
 
 .contenu {
   display: flex; }
@@ -116,7 +115,8 @@
   .cv .titre {
     text-align: center;
     color: #CE253B;
-    font-family: Shadows Into Light; }
+    font-family: Shadows Into Light;
+    margin-top: -0.7em; }
   .cv .projet h1 {
     text-align: center;
     color: #CE253B;
@@ -234,6 +234,13 @@
     columns: 3; }
   .cv .loisirs .fa {
     margin-right: 2em; }
+  .cv .print {
+    margin-left: 43em;
+    width: 5%; }
+  @media (max-width: 1000px) {
+    .cv .print {
+      margin-left: 35em;
+      width: 7%; } }
 
 body {
   margin: 0;

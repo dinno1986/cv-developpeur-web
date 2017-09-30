@@ -12,6 +12,7 @@
 		text-align: center;
 		color: $primary-color;
 		font-family: $first-write;
+		margin-top:-0.7em;
 	}
 
 	.projet{
@@ -224,6 +225,26 @@
 		}
 		
 	}
+
+	.print{
+				margin-left: 43em;
+				width: 5%;
+
+		}
+
+	@media (max-width: 1000px){
+
+		.print{
+				margin-left: 35em;
+				width: 7%;
+
+		}
+
+
+
+	}
+
+
 
 	
 }
